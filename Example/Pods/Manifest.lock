@@ -1,0 +1,16 @@
+PODS:
+  - ReplaceRootViewController (1.0.0)
+
+DEPENDENCIES:
+  - ReplaceRootViewController (from `../`)
+
+EXTERNAL SOURCES:
+  ReplaceRootViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReplaceRootViewController: e5d4f4eab61d461e43f46076fe35ba1432f3a8a2
+
+PODFILE CHECKSUM: 19412853f9ca1f93bb08f3b334842d8002464efa
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,6 @@
+framework module ReplaceRootViewController {
+  umbrella header "ReplaceRootViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
