@@ -1,6 +1,6 @@
 # ReplaceRootViewController
 
-[![CI Status](https://img.shields.io/travis/sushant/ReplaceRootViewController.svg?style=flat)](https://travis-ci.org/sushant/ReplaceRootViewController)
+[![CI Status](https://img.shields.io/travis/voltbank/ReplaceRootViewController.svg?style=flat)](https://travis-ci.org/voltbank/ReplaceRootViewController)
 [![Version](https://img.shields.io/cocoapods/v/ReplaceRootViewController.svg?style=flat)](https://cocoapods.org/pods/ReplaceRootViewController)
 [![License](https://img.shields.io/cocoapods/l/ReplaceRootViewController.svg?style=flat)](https://cocoapods.org/pods/ReplaceRootViewController)
 [![Platform](https://img.shields.io/cocoapods/p/ReplaceRootViewController.svg?style=flat)](https://cocoapods.org/pods/ReplaceRootViewController)
