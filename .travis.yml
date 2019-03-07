@@ -10,5 +10,5 @@ language: swift
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/ReplaceRootViewController.xcworkspace -scheme ReplaceRootViewController-Example -destination "platform=iOS Simulator,name=iPhone 7" -destination "platform=iOS Simulator,name=iPhone 7 Plus" -destination "platform=iOS Simulator,name=iPhone 8" -destination "platform=iOS Simulator,name=iPhone 8 Plus" -destination "platform=iOS Simulator,name=iPhone X" -destination "platform=iOS Simulator,name=iPhone XS" -destination "platform=iOS Simulator,name=iPhone XS Max" | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/ReplaceRootViewController.xcworkspace -scheme ReplaceRootViewController-Example -destination "platform=iOS Simulator,name=iPhone X" | xcpretty
 - pod lib lint
