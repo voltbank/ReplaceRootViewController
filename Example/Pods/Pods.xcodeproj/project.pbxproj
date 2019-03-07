@@ -27,21 +27,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E756DF7F51CDF945969AF3096D16A44 /* ReplaceRootViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReplaceRootViewController.framework; path = ReplaceRootViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E756DF7F51CDF945969AF3096D16A44 /* ReplaceRootViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReplaceRootViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F509D1F42ED20983E1158B89A4017F3 /* Pods-ReplaceRootViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReplaceRootViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		2A1C3D04E82FF71ACD10A05CDCACD988 /* ReplaceRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceRootViewController.swift; path = ReplaceRootViewController/Classes/ReplaceRootViewController.swift; sourceTree = "<group>"; };
 		2C75B3F474763DBCDA5CCDE60757B44F /* Pods-ReplaceRootViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReplaceRootViewController_Example.modulemap"; sourceTree = "<group>"; };
 		440B12D4DCFAE3C248A882DD2EAAF405 /* ReplaceRootViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReplaceRootViewController-Info.plist"; sourceTree = "<group>"; };
 		47B18587C0D4F6D43CF39058A36D7170 /* Pods-ReplaceRootViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplaceRootViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		526E7444E965CC046834F82F45198450 /* Pods_ReplaceRootViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReplaceRootViewController_Example.framework; path = "Pods-ReplaceRootViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526E7444E965CC046834F82F45198450 /* Pods_ReplaceRootViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReplaceRootViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BC6DEF98DC3A0D82C2C639F326342D /* Pods-ReplaceRootViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReplaceRootViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6E4E2F9CF21C04FDE91A68C77317592D /* ReplaceRootViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReplaceRootViewController.xcconfig; sourceTree = "<group>"; };
 		8754F2576AFAAF65A645B27972F49891 /* ReplaceRootViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReplaceRootViewController-prefix.pch"; sourceTree = "<group>"; };
-		883C47147A2884B527D80E1BE35D8855 /* ReplaceRootViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ReplaceRootViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		883C47147A2884B527D80E1BE35D8855 /* ReplaceRootViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ReplaceRootViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E163B320F37CB8730E1E2ABD7166B5F /* Pods-ReplaceRootViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReplaceRootViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD1D3DA71C75E1CA649341FA2AED1109 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B262FF86356F493C0F123B0347601E43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AD1D3DA71C75E1CA649341FA2AED1109 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B262FF86356F493C0F123B0347601E43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BEBD017A904B4D9F3AD954FCE99DAE35 /* ReplaceRootViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReplaceRootViewController-umbrella.h"; sourceTree = "<group>"; };
 		C4F30E80A1657593EE72C79F1081C16B /* ReplaceRootViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReplaceRootViewController.modulemap; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -327,7 +327,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController.modulemap";
 				PRODUCT_MODULE_NAME = ReplaceRootViewController;
@@ -361,7 +360,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ReplaceRootViewController_Example/Pods-ReplaceRootViewController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ReplaceRootViewController_Example/Pods-ReplaceRootViewController_Example.modulemap";
@@ -427,13 +426,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -490,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -521,7 +519,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ReplaceRootViewController_Example/Pods-ReplaceRootViewController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ReplaceRootViewController_Example/Pods-ReplaceRootViewController_Example.modulemap";
@@ -556,7 +554,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController.modulemap";
 				PRODUCT_MODULE_NAME = ReplaceRootViewController;

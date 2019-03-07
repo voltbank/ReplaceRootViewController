@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ReplaceRootViewController'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'This pod fixes a UIView memory leak that occurs when swapping out the root view controller in a UIWindow.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ You will need to use the console in xcode and debugging tools (eg "debug view hi
   s.author           = { 'sushant verma' => 'sushant.verma@voltbank.com.au' }
   s.source           = { :git => 'https://github.com/voltbank/ReplaceRootViewController.git', :tag => s.version.to_s }
   s.swift_version = '4.2'
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ReplaceRootViewController/Classes/**/*'
   
