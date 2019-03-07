@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF8A156F66A48D42678E9351260216D4"
-               BuildableName = "Pods_ReplaceRootViewController_Example.framework"
-               BlueprintName = "Pods-ReplaceRootViewController_Example"
+               BlueprintIdentifier = "ACD7DB9F4300D61B1B7853D3E16A6998"
+               BuildableName = "ReplaceRootViewController.framework"
+               BlueprintName = "ReplaceRootViewController"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF8A156F66A48D42678E9351260216D4"
-            BuildableName = "Pods_ReplaceRootViewController_Example.framework"
-            BlueprintName = "Pods-ReplaceRootViewController_Example"
+            BlueprintIdentifier = "ACD7DB9F4300D61B1B7853D3E16A6998"
+            BuildableName = "ReplaceRootViewController.framework"
+            BlueprintName = "ReplaceRootViewController"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
