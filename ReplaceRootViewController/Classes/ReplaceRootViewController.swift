@@ -14,7 +14,7 @@ import UIKit
 public extension UIWindow {
 
     /// Transition Options
-    public struct TransitionOptions {
+    struct TransitionOptions {
 
         /// Curve of animation
         ///
@@ -123,7 +123,7 @@ public extension UIWindow {
 
 
     /// Fix for http://stackoverflow.com/a/27153956/849645
-    public func set(rootViewController newRootViewController: UIViewController, options:TransitionOptions = TransitionOptions()) {
+    func set(rootViewController newRootViewController: UIViewController, options:TransitionOptions = TransitionOptions()) {
 
         let previousViewController = rootViewController
 
