@@ -68,7 +68,11 @@ class UITests: XCTestCase {
         rScreen.present.tap()
 
         sleep(1)//ugggh
-        XCTAssertFalse(rScreen.navBar.exists)
+        if #available(iOS 13.0, *) {
+            XCTAssertTrue(rScreen.navBar.exists)
+        } else {
+            XCTAssertFalse(rScreen.navBar.exists)
+        }
         XCTAssertTrue(gScreen.navBar.exists)
         gScreen.replace.tap()
 
