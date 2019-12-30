@@ -14,7 +14,7 @@ import UIKit
 public extension UIWindow {
 
     /// Transition Options
-    struct TransitionOptions {
+    class TransitionOptions: NSObject, CAAnimationDelegate {
 
         /// Curve of animation
         ///
@@ -100,6 +100,8 @@ public extension UIWindow {
         /// Background of the transition (default is `nil`)
         public var background: TransitionOptions.Background? = nil
 
+        public var completionBlock: ((Bool) -> Void)? = nil
+
         /// Initialize a new options object with given direction and curve
         ///
         /// - Parameters:
@@ -110,24 +112,29 @@ public extension UIWindow {
             self.style = style
         }
 
-        public init() { }
-
         /// Return the animation to perform for given options object
         internal var animation: CATransition {
             let transition = self.direction.transition()
             transition.duration = self.duration
             transition.timingFunction = self.style.function
+            transition.delegate = self
+
             return transition
+        }
+
+        public func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+            completionBlock?(flag)
         }
     }
 
 
     /// Fix for http://stackoverflow.com/a/27153956/849645
-    func set(rootViewController newRootViewController: UIViewController, options:TransitionOptions = TransitionOptions()) {
+    func set(rootViewController newRootViewController: UIViewController, options:TransitionOptions = TransitionOptions(), _ completion:((Bool) -> Void)? = nil) {
 
         let previousViewController = rootViewController
 
         layer.add(options.animation, forKey: kCATransition)
+        options.completionBlock = completion
 
         rootViewController = newRootViewController
 

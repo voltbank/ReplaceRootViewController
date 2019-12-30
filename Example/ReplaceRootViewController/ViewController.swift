@@ -47,7 +47,9 @@ class ViewController: UIViewController {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()!
 
         if let window = view.window {
-            window.set(rootViewController: vc)
+            window.set(rootViewController: vc) { (completed) in
+                print("Reset callback!")
+            }
         }
     }
 
