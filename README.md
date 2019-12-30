@@ -26,6 +26,17 @@ if let window = view.window {
 }
 ```
 
+if you want you can also have a callback:..
+
+```Swift
+if let window = view.window {
+    window.set(rootViewController: yourReplacementViewController) { (completed) in
+        print("Root view replaced!")
+    }
+}
+```
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

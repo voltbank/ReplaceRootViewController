@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ReplaceRootViewController'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'This pod fixes a UIView memory leak that occurs when swapping out the root view controller in a UIWindow.'
 
 # This description is used to generate tags and improve search results.
