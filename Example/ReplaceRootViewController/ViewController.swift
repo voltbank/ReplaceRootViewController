@@ -29,12 +29,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func doPush(_ sender: Any) {
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "content")
-
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
-
     @IBAction func doPresent(_ sender: Any) {
         let vc = UIStoryboard(name: "Presented", bundle: nil).instantiateInitialViewController()!
 

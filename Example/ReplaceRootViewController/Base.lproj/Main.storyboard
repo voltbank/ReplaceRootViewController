@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4Lh-E2-2Ie">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4Lh-E2-2Ie">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--ReplaceRootViewController-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController storyboardIdentifier="content" id="vXZ-lx-hvc" customClass="ViewController" customModule="ReplaceRootViewController_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ReplaceRootViewController_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -32,7 +34,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxs-ZN-GbD">
-                                <rect key="frame" x="16" y="54" width="343" height="107.5"/>
+                                <rect key="frame" x="16" y="74" width="343" height="107.5"/>
                                 <string key="text">This project demonstrates a fix for http://www.openradar.me/21404408
 
 You will need to use the console in xcode and debugging tools (eg "debug view hierarchy") to verify that everything is working as expected.</string>
@@ -40,29 +42,14 @@ You will need to use the console in xcode and debugging tools (eg "debug view hi
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZZ-W2-mwn">
-                                <rect key="frame" x="16" y="459" width="343" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="Zdr-hO-Dyj"/>
-                                </constraints>
-                                <state key="normal" title="Push!">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="doPush:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Aqy-Bx-4Sb"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0ZZ-W2-mwn" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="BD1-bW-PB8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GJb-Bk-xH3" secondAttribute="trailing" id="Ea5-Oo-YT8"/>
-                            <constraint firstItem="0ZZ-W2-mwn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="NAn-ya-oXn"/>
                             <constraint firstItem="GJb-Bk-xH3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Ubg-h8-Wsz"/>
                             <constraint firstItem="Zxs-ZN-GbD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="b5u-08-57f"/>
                             <constraint firstItem="Zxs-ZN-GbD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="hxl-6R-xjW"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="GJb-Bk-xH3" secondAttribute="bottom" id="kYo-OR-NAE"/>
-                            <constraint firstItem="GJb-Bk-xH3" firstAttribute="top" secondItem="0ZZ-W2-mwn" secondAttribute="bottom" constant="8" id="mgH-cl-HYL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Zxs-ZN-GbD" secondAttribute="trailing" id="usf-as-gsw"/>
                         </constraints>
                     </view>
@@ -78,7 +65,7 @@ You will need to use the console in xcode and debugging tools (eg "debug view hi
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Lh-E2-2Ie" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eGG-hH-mrK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
