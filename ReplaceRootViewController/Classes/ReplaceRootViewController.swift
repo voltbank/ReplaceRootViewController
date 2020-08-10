@@ -102,6 +102,8 @@ public extension UIWindow {
 
         public var completionBlock: ((Bool) -> Void)? = nil
 
+        weak var previousViewController: UIViewController?
+
         /// Initialize a new options object with given direction and curve
         ///
         /// - Parameters:
@@ -123,6 +125,9 @@ public extension UIWindow {
         }
 
         public func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+            let oldNavigationController = previousViewController as? UINavigationController
+            oldNavigationController?.viewControllers = []//This is a tempoarary hack - not sure why nav controllers arent freed up.
+
             completionBlock?(flag)
         }
     }
@@ -135,6 +140,7 @@ public extension UIWindow {
 
         layer.add(options.animation, forKey: kCATransition)
         options.completionBlock = completion
+        options.previousViewController = rootViewController
 
         rootViewController = newRootViewController
 
