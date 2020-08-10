@@ -7,102 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FB0EFD8E59A00810148F74D370CBA66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		24B65CB91A9DB448596AE64CBE04195D /* ReplaceRootViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2233C29D17948F1C8162DFD20A44CDF /* ReplaceRootViewController-dummy.m */; };
-		3EDC320F926CEC4CE072B2E684860582 /* ReplaceRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1C3D04E82FF71ACD10A05CDCACD988 /* ReplaceRootViewController.swift */; };
-		66BA46CC4AEE1D1118EF937F6E3417E5 /* Pods-ReplaceRootViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F509D1F42ED20983E1158B89A4017F3 /* Pods-ReplaceRootViewController_Example-dummy.m */; };
-		87BFDA67AB7DB5AA9221F48C1AD12D07 /* ReplaceRootViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBD017A904B4D9F3AD954FCE99DAE35 /* ReplaceRootViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D87B7372595170A2E3BF380F5E75F403 /* Pods-ReplaceRootViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7A144A332E03660E9A4A826CF61107 /* Pods-ReplaceRootViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E362575331C2611A004A435D3D88828E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		10B29AE3A82882ED20FEBFE2A889C214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1BB5CF7D0FB8A3E9ED71E094B4E41F94 /* Pods-ReplaceRootViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A49A533A7E827CDEB6A787A3FEEA76F /* Pods-ReplaceRootViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		579714619DDFC9F795BF86674D434BD0 /* ReplaceRootViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08940E260F1DA08E1CF7F6EDA37F0AA2 /* ReplaceRootViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CBDE4AEF032ECF7CE4020CF4A7028F6 /* Pods-ReplaceRootViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DAE50B314B70C5933BCED9706FAE53 /* Pods-ReplaceRootViewController_Example-dummy.m */; };
+		BD4E9C14EDDB86B02DB7638D56AC914B /* ReplaceRootViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A993D288D61B0D0513B287192F4884D5 /* ReplaceRootViewController-dummy.m */; };
+		C2A55BBA91900BDE2815FE93E16152E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F631DF9CCAD456A56E04928AA45AB946 /* ReplaceRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EE25C5C386626CB2840BA77558DFDA /* ReplaceRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		345BA406D3A7B1D8847474627A7AB749 /* PBXContainerItemProxy */ = {
+		AEADB779DE5D70F437BB96C613419C4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ACD7DB9F4300D61B1B7853D3E16A6998;
+			remoteGlobalIDString = 268C9B9FF8098AB903F4FDC000607681;
 			remoteInfo = ReplaceRootViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E756DF7F51CDF945969AF3096D16A44 /* ReplaceRootViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReplaceRootViewController.framework; path = ReplaceRootViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F509D1F42ED20983E1158B89A4017F3 /* Pods-ReplaceRootViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReplaceRootViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		2A1C3D04E82FF71ACD10A05CDCACD988 /* ReplaceRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceRootViewController.swift; path = ReplaceRootViewController/Classes/ReplaceRootViewController.swift; sourceTree = "<group>"; };
-		2C75B3F474763DBCDA5CCDE60757B44F /* Pods-ReplaceRootViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReplaceRootViewController_Example.modulemap"; sourceTree = "<group>"; };
-		440B12D4DCFAE3C248A882DD2EAAF405 /* ReplaceRootViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReplaceRootViewController-Info.plist"; sourceTree = "<group>"; };
-		47B18587C0D4F6D43CF39058A36D7170 /* Pods-ReplaceRootViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplaceRootViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		526E7444E965CC046834F82F45198450 /* Pods_ReplaceRootViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReplaceRootViewController_Example.framework; path = "Pods-ReplaceRootViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60BC6DEF98DC3A0D82C2C639F326342D /* Pods-ReplaceRootViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReplaceRootViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6E4E2F9CF21C04FDE91A68C77317592D /* ReplaceRootViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReplaceRootViewController.xcconfig; sourceTree = "<group>"; };
-		8754F2576AFAAF65A645B27972F49891 /* ReplaceRootViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReplaceRootViewController-prefix.pch"; sourceTree = "<group>"; };
-		883C47147A2884B527D80E1BE35D8855 /* ReplaceRootViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ReplaceRootViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08940E260F1DA08E1CF7F6EDA37F0AA2 /* ReplaceRootViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReplaceRootViewController-umbrella.h"; sourceTree = "<group>"; };
+		181D17A8A11FE1659C2509C1AE327EF8 /* Pods-ReplaceRootViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReplaceRootViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		1C5B7825183147201121F49C18B10450 /* ReplaceRootViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReplaceRootViewController-Info.plist"; sourceTree = "<group>"; };
+		2AE3B51883E02ABABC6A3260F05620CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3064EB4CC4BAE72A716C12B24A0CFA74 /* ReplaceRootViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReplaceRootViewController.release.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34F53189E9B9AC1A3A468EB088779411 /* Pods-ReplaceRootViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplaceRootViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		38C60F9DEB733905C7A3BA524A651191 /* Pods_ReplaceRootViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReplaceRootViewController_Example.framework; path = "Pods-ReplaceRootViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A49A533A7E827CDEB6A787A3FEEA76F /* Pods-ReplaceRootViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReplaceRootViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		4FAABB001473593D5BD7A5D6B42F522B /* Pods-ReplaceRootViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReplaceRootViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52690838C61F050EB5606657AD46D8FB /* ReplaceRootViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReplaceRootViewController.modulemap; sourceTree = "<group>"; };
+		62A1932A8580A29FE722596134662E24 /* Pods-ReplaceRootViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReplaceRootViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		662E20D7D92DDB4BDBD73B67AE3EDCBF /* ReplaceRootViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ReplaceRootViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91EE25C5C386626CB2840BA77558DFDA /* ReplaceRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceRootViewController.swift; path = ReplaceRootViewController/Classes/ReplaceRootViewController.swift; sourceTree = "<group>"; };
+		9CD9FB099FCB29DFEC68CFF086EE015B /* ReplaceRootViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReplaceRootViewController.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E163B320F37CB8730E1E2ABD7166B5F /* Pods-ReplaceRootViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReplaceRootViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD1D3DA71C75E1CA649341FA2AED1109 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B262FF86356F493C0F123B0347601E43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BEBD017A904B4D9F3AD954FCE99DAE35 /* ReplaceRootViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReplaceRootViewController-umbrella.h"; sourceTree = "<group>"; };
-		C4F30E80A1657593EE72C79F1081C16B /* ReplaceRootViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReplaceRootViewController.modulemap; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CB9CB23CD6011506DE93766C9AFE423D /* Pods-ReplaceRootViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReplaceRootViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D2233C29D17948F1C8162DFD20A44CDF /* ReplaceRootViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReplaceRootViewController-dummy.m"; sourceTree = "<group>"; };
-		D5961F9861D1C24A8B7C4D534C080EA0 /* Pods-ReplaceRootViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplaceRootViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DF7A144A332E03660E9A4A826CF61107 /* Pods-ReplaceRootViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReplaceRootViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		F19782F7D1CD6711F6884DF0F1DC2349 /* Pods-ReplaceRootViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReplaceRootViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		A993D288D61B0D0513B287192F4884D5 /* ReplaceRootViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReplaceRootViewController-dummy.m"; sourceTree = "<group>"; };
+		B70C90423CC0401FF3C5D24AD16052E0 /* ReplaceRootViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReplaceRootViewController.framework; path = ReplaceRootViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78F6BEAABA7FBB300F3F43C2C2AA8F5 /* ReplaceRootViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReplaceRootViewController-prefix.pch"; sourceTree = "<group>"; };
+		CC53459421351F5CAF5A4A8B6265C09F /* Pods-ReplaceRootViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReplaceRootViewController_Example.modulemap"; sourceTree = "<group>"; };
+		D204F23954BA405B703896E7D4503D3E /* Pods-ReplaceRootViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReplaceRootViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4DAE50B314B70C5933BCED9706FAE53 /* Pods-ReplaceRootViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReplaceRootViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		D84C8315192B3D16C12EDC237F62F2CB /* Pods-ReplaceRootViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplaceRootViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F9B9D5E9AF9A87B926E5E22AFBEEA900 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		70377E9EC591A002D1F70E9023FD78C0 /* Frameworks */ = {
+		1F2DAECE401B640B8F9F2F247CCA0F33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FB0EFD8E59A00810148F74D370CBA66 /* Foundation.framework in Frameworks */,
+				C2A55BBA91900BDE2815FE93E16152E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBD7467770DFD36ECC26D6D8AB47A38C /* Frameworks */ = {
+		61583A73B3BD5CF0DFDF03D4726DA95B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E362575331C2611A004A435D3D88828E /* Foundation.framework in Frameworks */,
+				10B29AE3A82882ED20FEBFE2A889C214 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		243C67AC00E74F36E04B235C6686AC0D /* Pods-ReplaceRootViewController_Example */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A8C8C24AAA2A0B67D868251139508110 /* Pods-ReplaceRootViewController_Example */ = {
-			isa = PBXGroup;
-			children = (
-				2C75B3F474763DBCDA5CCDE60757B44F /* Pods-ReplaceRootViewController_Example.modulemap */,
-				CB9CB23CD6011506DE93766C9AFE423D /* Pods-ReplaceRootViewController_Example-acknowledgements.markdown */,
-				9E163B320F37CB8730E1E2ABD7166B5F /* Pods-ReplaceRootViewController_Example-acknowledgements.plist */,
-				1F509D1F42ED20983E1158B89A4017F3 /* Pods-ReplaceRootViewController_Example-dummy.m */,
-				60BC6DEF98DC3A0D82C2C639F326342D /* Pods-ReplaceRootViewController_Example-frameworks.sh */,
-				F19782F7D1CD6711F6884DF0F1DC2349 /* Pods-ReplaceRootViewController_Example-Info.plist */,
-				DF7A144A332E03660E9A4A826CF61107 /* Pods-ReplaceRootViewController_Example-umbrella.h */,
-				47B18587C0D4F6D43CF39058A36D7170 /* Pods-ReplaceRootViewController_Example.debug.xcconfig */,
-				D5961F9861D1C24A8B7C4D534C080EA0 /* Pods-ReplaceRootViewController_Example.release.xcconfig */,
+				CC53459421351F5CAF5A4A8B6265C09F /* Pods-ReplaceRootViewController_Example.modulemap */,
+				4FAABB001473593D5BD7A5D6B42F522B /* Pods-ReplaceRootViewController_Example-acknowledgements.markdown */,
+				D204F23954BA405B703896E7D4503D3E /* Pods-ReplaceRootViewController_Example-acknowledgements.plist */,
+				D4DAE50B314B70C5933BCED9706FAE53 /* Pods-ReplaceRootViewController_Example-dummy.m */,
+				62A1932A8580A29FE722596134662E24 /* Pods-ReplaceRootViewController_Example-frameworks.sh */,
+				181D17A8A11FE1659C2509C1AE327EF8 /* Pods-ReplaceRootViewController_Example-Info.plist */,
+				3A49A533A7E827CDEB6A787A3FEEA76F /* Pods-ReplaceRootViewController_Example-umbrella.h */,
+				34F53189E9B9AC1A3A468EB088779411 /* Pods-ReplaceRootViewController_Example.debug.xcconfig */,
+				D84C8315192B3D16C12EDC237F62F2CB /* Pods-ReplaceRootViewController_Example.release.xcconfig */,
 			);
 			name = "Pods-ReplaceRootViewController_Example";
 			path = "Target Support Files/Pods-ReplaceRootViewController_Example";
 			sourceTree = "<group>";
 		};
+		59ADBC94E8AE8150545ADC72335D809F /* ReplaceRootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				91EE25C5C386626CB2840BA77558DFDA /* ReplaceRootViewController.swift */,
+				ADD7ECE63FEBF9831E068F23C4A6B514 /* Pod */,
+				B3C167E24830AEDF48E0132647D63899 /* Support Files */,
+			);
+			name = ReplaceRootViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6CA711C13227E49A38CDCBE3CAF75A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38C60F9DEB733905C7A3BA524A651191 /* Pods_ReplaceRootViewController_Example.framework */,
+				B70C90423CC0401FF3C5D24AD16052E0 /* ReplaceRootViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		AB68F9AB9E7B02F5A3ECC13D714AA51D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8C8C24AAA2A0B67D868251139508110 /* Pods-ReplaceRootViewController_Example */,
+				243C67AC00E74F36E04B235C6686AC0D /* Pods-ReplaceRootViewController_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ADD7ECE63FEBF9831E068F23C4A6B514 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2AE3B51883E02ABABC6A3260F05620CD /* LICENSE */,
+				F9B9D5E9AF9A87B926E5E22AFBEEA900 /* README.md */,
+				662E20D7D92DDB4BDBD73B67AE3EDCBF /* ReplaceRootViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B3C167E24830AEDF48E0132647D63899 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52690838C61F050EB5606657AD46D8FB /* ReplaceRootViewController.modulemap */,
+				A993D288D61B0D0513B287192F4884D5 /* ReplaceRootViewController-dummy.m */,
+				1C5B7825183147201121F49C18B10450 /* ReplaceRootViewController-Info.plist */,
+				B78F6BEAABA7FBB300F3F43C2C2AA8F5 /* ReplaceRootViewController-prefix.pch */,
+				08940E260F1DA08E1CF7F6EDA37F0AA2 /* ReplaceRootViewController-umbrella.h */,
+				9CD9FB099FCB29DFEC68CFF086EE015B /* ReplaceRootViewController.debug.xcconfig */,
+				3064EB4CC4BAE72A716C12B24A0CFA74 /* ReplaceRootViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ReplaceRootViewController";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -111,7 +157,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				F6C5608DFA208E52D5F333C88DF24E42 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DC59033062ECD7E6F0117EC68813D03B /* Products */,
+				6CA711C13227E49A38CDCBE3CAF75A10 /* Products */,
 				AB68F9AB9E7B02F5A3ECC13D714AA51D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -119,93 +165,49 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC59033062ECD7E6F0117EC68813D03B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				526E7444E965CC046834F82F45198450 /* Pods_ReplaceRootViewController_Example.framework */,
-				0E756DF7F51CDF945969AF3096D16A44 /* ReplaceRootViewController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F16DCC0C4A065A62028F6F328289E779 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C4F30E80A1657593EE72C79F1081C16B /* ReplaceRootViewController.modulemap */,
-				6E4E2F9CF21C04FDE91A68C77317592D /* ReplaceRootViewController.xcconfig */,
-				D2233C29D17948F1C8162DFD20A44CDF /* ReplaceRootViewController-dummy.m */,
-				440B12D4DCFAE3C248A882DD2EAAF405 /* ReplaceRootViewController-Info.plist */,
-				8754F2576AFAAF65A645B27972F49891 /* ReplaceRootViewController-prefix.pch */,
-				BEBD017A904B4D9F3AD954FCE99DAE35 /* ReplaceRootViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ReplaceRootViewController";
 			sourceTree = "<group>";
 		};
 		F6C5608DFA208E52D5F333C88DF24E42 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FB9F5DFCEB3E0807B0403F934E5440D7 /* ReplaceRootViewController */,
+				59ADBC94E8AE8150545ADC72335D809F /* ReplaceRootViewController */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FAD95772A741831E1FC95D9E71E0D0D0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AD1D3DA71C75E1CA649341FA2AED1109 /* LICENSE */,
-				B262FF86356F493C0F123B0347601E43 /* README.md */,
-				883C47147A2884B527D80E1BE35D8855 /* ReplaceRootViewController.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FB9F5DFCEB3E0807B0403F934E5440D7 /* ReplaceRootViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2A1C3D04E82FF71ACD10A05CDCACD988 /* ReplaceRootViewController.swift */,
-				FAD95772A741831E1FC95D9E71E0D0D0 /* Pod */,
-				F16DCC0C4A065A62028F6F328289E779 /* Support Files */,
-			);
-			name = ReplaceRootViewController;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B16242FDDF4C14B058E350514157F94 /* Headers */ = {
+		BF9C06EE64FFC1A5BA678B576F580E76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87B7372595170A2E3BF380F5E75F403 /* Pods-ReplaceRootViewController_Example-umbrella.h in Headers */,
+				579714619DDFC9F795BF86674D434BD0 /* ReplaceRootViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D33BF0DE7F4E206C593A56BADE90B40 /* Headers */ = {
+		DF2ACCED87671F669B392081DFCB1571 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BFDA67AB7DB5AA9221F48C1AD12D07 /* ReplaceRootViewController-umbrella.h in Headers */,
+				1BB5CF7D0FB8A3E9ED71E094B4E41F94 /* Pods-ReplaceRootViewController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ACD7DB9F4300D61B1B7853D3E16A6998 /* ReplaceRootViewController */ = {
+		268C9B9FF8098AB903F4FDC000607681 /* ReplaceRootViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C938B6FE703FF952ED85A68CAA725457 /* Build configuration list for PBXNativeTarget "ReplaceRootViewController" */;
+			buildConfigurationList = 14ADCED43639709E81BA4BEF923F39CF /* Build configuration list for PBXNativeTarget "ReplaceRootViewController" */;
 			buildPhases = (
-				3D33BF0DE7F4E206C593A56BADE90B40 /* Headers */,
-				68C9CD6C294429A608A3B73B360FC882 /* Sources */,
-				EBD7467770DFD36ECC26D6D8AB47A38C /* Frameworks */,
-				01BD6741AA4F3A31E47BFC81E3EF77B3 /* Resources */,
+				BF9C06EE64FFC1A5BA678B576F580E76 /* Headers */,
+				5D0B11D6548AC7B71A072ACD7A5165B3 /* Sources */,
+				1F2DAECE401B640B8F9F2F247CCA0F33 /* Frameworks */,
+				52E31918E1EACC374B5CC243DCEE69B5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -213,26 +215,26 @@
 			);
 			name = ReplaceRootViewController;
 			productName = ReplaceRootViewController;
-			productReference = 0E756DF7F51CDF945969AF3096D16A44 /* ReplaceRootViewController.framework */;
+			productReference = B70C90423CC0401FF3C5D24AD16052E0 /* ReplaceRootViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DF8A156F66A48D42678E9351260216D4 /* Pods-ReplaceRootViewController_Example */ = {
+		641D4700659C70CDE8E292A544430C32 /* Pods-ReplaceRootViewController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 132887C269C430872579F8124325FEC1 /* Build configuration list for PBXNativeTarget "Pods-ReplaceRootViewController_Example" */;
+			buildConfigurationList = 75C177F6D6A3D553A7464C3D07692461 /* Build configuration list for PBXNativeTarget "Pods-ReplaceRootViewController_Example" */;
 			buildPhases = (
-				1B16242FDDF4C14B058E350514157F94 /* Headers */,
-				E369FB44C0088E5E31346CFB5BF037D6 /* Sources */,
-				70377E9EC591A002D1F70E9023FD78C0 /* Frameworks */,
-				2D7CB931ECC96A04D4A365F09D9AC5CA /* Resources */,
+				DF2ACCED87671F669B392081DFCB1571 /* Headers */,
+				53463665423B2528948627AC502F7053 /* Sources */,
+				61583A73B3BD5CF0DFDF03D4726DA95B /* Frameworks */,
+				643E36C6E546683D77DF17BFEAE320EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				807BA56177BE75022457B9065A4CA00E /* PBXTargetDependency */,
+				C7A3025DD463C7DE58E7C924D4F5F918 /* PBXTargetDependency */,
 			);
 			name = "Pods-ReplaceRootViewController_Example";
 			productName = "Pods-ReplaceRootViewController_Example";
-			productReference = 526E7444E965CC046834F82F45198450 /* Pods_ReplaceRootViewController_Example.framework */;
+			productReference = 38C60F9DEB733905C7A3BA524A651191 /* Pods_ReplaceRootViewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -241,36 +243,37 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DC59033062ECD7E6F0117EC68813D03B /* Products */;
+			productRefGroup = 6CA711C13227E49A38CDCBE3CAF75A10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF8A156F66A48D42678E9351260216D4 /* Pods-ReplaceRootViewController_Example */,
-				ACD7DB9F4300D61B1B7853D3E16A6998 /* ReplaceRootViewController */,
+				641D4700659C70CDE8E292A544430C32 /* Pods-ReplaceRootViewController_Example */,
+				268C9B9FF8098AB903F4FDC000607681 /* ReplaceRootViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01BD6741AA4F3A31E47BFC81E3EF77B3 /* Resources */ = {
+		52E31918E1EACC374B5CC243DCEE69B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D7CB931ECC96A04D4A365F09D9AC5CA /* Resources */ = {
+		643E36C6E546683D77DF17BFEAE320EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,106 +283,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		68C9CD6C294429A608A3B73B360FC882 /* Sources */ = {
+		53463665423B2528948627AC502F7053 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B65CB91A9DB448596AE64CBE04195D /* ReplaceRootViewController-dummy.m in Sources */,
-				3EDC320F926CEC4CE072B2E684860582 /* ReplaceRootViewController.swift in Sources */,
+				9CBDE4AEF032ECF7CE4020CF4A7028F6 /* Pods-ReplaceRootViewController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E369FB44C0088E5E31346CFB5BF037D6 /* Sources */ = {
+		5D0B11D6548AC7B71A072ACD7A5165B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66BA46CC4AEE1D1118EF937F6E3417E5 /* Pods-ReplaceRootViewController_Example-dummy.m in Sources */,
+				BD4E9C14EDDB86B02DB7638D56AC914B /* ReplaceRootViewController-dummy.m in Sources */,
+				F631DF9CCAD456A56E04928AA45AB946 /* ReplaceRootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		807BA56177BE75022457B9065A4CA00E /* PBXTargetDependency */ = {
+		C7A3025DD463C7DE58E7C924D4F5F918 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReplaceRootViewController;
-			target = ACD7DB9F4300D61B1B7853D3E16A6998 /* ReplaceRootViewController */;
-			targetProxy = 345BA406D3A7B1D8847474627A7AB749 /* PBXContainerItemProxy */;
+			target = 268C9B9FF8098AB903F4FDC000607681 /* ReplaceRootViewController */;
+			targetProxy = AEADB779DE5D70F437BB96C613419C4C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0EEF7DD45AB23DCC1A9F3FD99B44906B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E4E2F9CF21C04FDE91A68C77317592D /* ReplaceRootViewController.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController.modulemap";
-				PRODUCT_MODULE_NAME = ReplaceRootViewController;
-				PRODUCT_NAME = ReplaceRootViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		480C0A7AED0E46D2FA9366A4641114A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5961F9861D1C24A8B7C4D534C080EA0 /* Pods-ReplaceRootViewController_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ReplaceRootViewController_Example/Pods-ReplaceRootViewController_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ReplaceRootViewController_Example/Pods-ReplaceRootViewController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,12 +367,115 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+		273C598F5F2A9078C2F8E2DD378F5E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84C8315192B3D16C12EDC237F62F2CB /* Pods-ReplaceRootViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReplaceRootViewController_Example/Pods-ReplaceRootViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReplaceRootViewController_Example/Pods-ReplaceRootViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BEC9E306042227B797D653A78EC59A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3064EB4CC4BAE72A716C12B24A0CFA74 /* ReplaceRootViewController.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController.modulemap";
+				PRODUCT_MODULE_NAME = ReplaceRootViewController;
+				PRODUCT_NAME = ReplaceRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		714704E4C8DE22399D2296832654D2B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD9FB099FCB29DFEC68CFF086EE015B /* ReplaceRootViewController.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController.modulemap";
+				PRODUCT_MODULE_NAME = ReplaceRootViewController;
+				PRODUCT_NAME = ReplaceRootViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -498,14 +534,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		939EB99C4AB1840FAB952AF2837693CC /* Debug */ = {
+		E9B761DD426CD815B87A0D9F31A9342B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47B18587C0D4F6D43CF39058A36D7170 /* Pods-ReplaceRootViewController_Example.debug.xcconfig */;
+			baseConfigurationReference = 34F53189E9B9AC1A3A468EB088779411 /* Pods-ReplaceRootViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -538,47 +574,14 @@
 			};
 			name = Debug;
 		};
-		D61698F0A39703DB3D5CDF404AEFA75A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E4E2F9CF21C04FDE91A68C77317592D /* ReplaceRootViewController.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReplaceRootViewController/ReplaceRootViewController.modulemap";
-				PRODUCT_MODULE_NAME = ReplaceRootViewController;
-				PRODUCT_NAME = ReplaceRootViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		132887C269C430872579F8124325FEC1 /* Build configuration list for PBXNativeTarget "Pods-ReplaceRootViewController_Example" */ = {
+		14ADCED43639709E81BA4BEF923F39CF /* Build configuration list for PBXNativeTarget "ReplaceRootViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				939EB99C4AB1840FAB952AF2837693CC /* Debug */,
-				480C0A7AED0E46D2FA9366A4641114A1 /* Release */,
+				714704E4C8DE22399D2296832654D2B8 /* Debug */,
+				3BEC9E306042227B797D653A78EC59A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -586,17 +589,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
-				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C938B6FE703FF952ED85A68CAA725457 /* Build configuration list for PBXNativeTarget "ReplaceRootViewController" */ = {
+		75C177F6D6A3D553A7464C3D07692461 /* Build configuration list for PBXNativeTarget "Pods-ReplaceRootViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D61698F0A39703DB3D5CDF404AEFA75A /* Debug */,
-				0EEF7DD45AB23DCC1A9F3FD99B44906B /* Release */,
+				E9B761DD426CD815B87A0D9F31A9342B /* Debug */,
+				273C598F5F2A9078C2F8E2DD378F5E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

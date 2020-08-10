@@ -1,5 +1,5 @@
 PODS:
-  - ReplaceRootViewController (1.0.0)
+  - ReplaceRootViewController (1.0.6)
 
 DEPENDENCIES:
   - ReplaceRootViewController (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ReplaceRootViewController: e5d4f4eab61d461e43f46076fe35ba1432f3a8a2
+  ReplaceRootViewController: db042aaea3a6ccc4d2351f81e9ad53a7d94c5df0
 
 PODFILE CHECKSUM: 19412853f9ca1f93bb08f3b334842d8002464efa
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.3
